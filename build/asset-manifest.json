@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c608451f.chunk.css",
+    "main.js": "/static/js/main.9df3fb64.chunk.js",
+    "main.js.map": "/static/js/main.9df3fb64.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.470b33ba.js",
+    "runtime-main.js.map": "/static/js/runtime-main.470b33ba.js.map",
+    "static/css/2.fd7faca8.chunk.css": "/static/css/2.fd7faca8.chunk.css",
+    "static/js/2.1a89d7b2.chunk.js": "/static/js/2.1a89d7b2.chunk.js",
+    "static/js/2.1a89d7b2.chunk.js.map": "/static/js/2.1a89d7b2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.58589d97fa926ca8d7c8909bbe94b393.js": "/precache-manifest.58589d97fa926ca8d7c8909bbe94b393.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.fd7faca8.chunk.css.map": "/static/css/2.fd7faca8.chunk.css.map",
+    "static/css/main.c608451f.chunk.css.map": "/static/css/main.c608451f.chunk.css.map",
+    "static/js/2.1a89d7b2.chunk.js.LICENSE.txt": "/static/js/2.1a89d7b2.chunk.js.LICENSE.txt",
+    "static/media/Home.scss": "/static/media/Background.37a75b54.jpg",
+    "static/media/Logo.jpg": "/static/media/Logo.c1b22935.jpg",
+    "static/media/material-design-icons.css": "/static/media/MaterialIcons-Regular.84a37de8.woff",
+    "static/media/About.scss": "/static/media/Rubik-Regular.09556186.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.470b33ba.js",
+    "static/css/2.fd7faca8.chunk.css",
+    "static/js/2.1a89d7b2.chunk.js",
+    "static/css/main.c608451f.chunk.css",
+    "static/js/main.9df3fb64.chunk.js"
+  ]
+}
