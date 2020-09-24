@@ -1,0 +1,80 @@
+@import '../Fonts.scss';
+.main{
+    width: 100%;
+    height: calc(100vh - 150px);
+    background: transparent url('./Background.jpg') 0% 0% no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    &__center{
+        margin-right: 33px;
+        &-title{
+            max-width: 518px;
+            height: 127px;
+            text-align: right;
+            margin-bottom: 45px;
+            
+        }
+        &-title h1{
+            font-family: 'Rubik-Regular';
+            color: #FDD000;
+            padding: 0;
+            margin: 0;
+            font-style: normal;
+            text-transform: uppercase;
+            letter-spacing: 3.5px;
+            font-size:50px;
+        }
+        &-text{
+            max-width: 518px;
+            height: 144px;
+            text-align: right;
+        }
+        &-text p{
+            padding: 0;
+            margin: 0;
+            font-family: 'Rubik-Light';
+            letter-spacing: 0.6px;
+            color: #DFDFDF;
+            font-weight:300;
+            font-size: 30px;
+        }
+    }
+    &__rigth{
+        width: 37%;
+        height: inherit;
+        background: #272829;
+    }
+}
+
+@media only screen and(max-width:1200px)
+{
+    .main{
+        height: unset;
+        align-items: flex-end;
+        justify-content: space-around;
+        flex-direction: column;
+        &__rigth{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+        }
+    }
+}
+@media only screen and(max-width:500px)
+{
+    .main{
+        &__center{
+           &-title h1{
+               font-size: 30px;
+           } 
+           &-text p{
+               font-size: 18px;
+           }
+        }
+        &__rigth{
+            width: 90%;
+        }
+    }
+}

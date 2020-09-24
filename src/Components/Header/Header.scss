@@ -1,0 +1,76 @@
+@import '../Fonts.scss';
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    &__logo{
+        width: 165px;
+        height: 50px;
+        margin-left: 110px;
+    }
+    &__nav{
+        margin-left: auto;
+        margin-right: 110px;
+        &-home{
+            text-decoration: none;
+            margin-right: 70px;
+            color: #3D3D3D;
+            text-transform: uppercase;
+            font-family: 'Rubik-Medium';
+            letter-spacing: 0.56px;
+            font-size: 28px;
+        }
+        &-about{
+            text-decoration: none;
+            color: #3D3D3D;
+            text-transform: uppercase;
+            font-family: 'Rubik-Medium';
+            letter-spacing: 0.56px;
+            font-size: 28px;
+        }
+    }
+}
+
+@media only screen and(max-width:720px)
+{
+    .header{
+        &__logo{
+            width: 120px;
+            height: 40px;
+            margin-left: 50px;
+        }
+        &__nav{
+            margin-right: 30px;
+            &-home{
+                margin-right: 20px;
+                font-size: 20px;
+            }
+            &-about{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:400px){
+
+    .header{
+        &__logo{
+            width: 90px;
+            height: 30px;
+            margin-left: 30px;
+        }
+        &__nav{
+            margin-right: 30px;
+            &-home{
+                margin-right: 10px;
+                font-size: 19px;
+            }
+            &-about{
+                font-size: 18px;
+            }
+        }
+    }
+}
